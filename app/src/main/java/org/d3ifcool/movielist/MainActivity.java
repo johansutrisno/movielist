@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         progressDialog.show();
 
         GetDataService service = RetrofitClientInstance.getRetrofitInstance().create(GetDataService.class);
-        Call<List<RetroMovie>> call = service.getAllPhotos();
+        Call<List<RetroMovie>> call = service.getAllMovies();
         call.enqueue(new Callback<List<RetroMovie>>() {
             @Override
             public void onResponse(Call<List<RetroMovie>> call, Response<List<RetroMovie>> response) {

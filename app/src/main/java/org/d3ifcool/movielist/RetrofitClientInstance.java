@@ -9,7 +9,7 @@ import retrofit2.http.GET;
 
 public class RetrofitClientInstance {
     private static Retrofit retrofit;
-    private static final String BASE_URL = "https://jsonplaceholder.typicode.com";
+    private static final String BASE_URL = "https://my-json-server.typicode.com/johansutrisno/demo_movielist/";
 //    https://my-json-server.typicode.com/johansutrisno/demo_movielist/movie/
 
     public static Retrofit getRetrofitInstance(){

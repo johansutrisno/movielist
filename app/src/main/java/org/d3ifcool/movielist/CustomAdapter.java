@@ -61,7 +61,6 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.CustomView
             movieImage = mView.findViewById(R.id.coverImage);
         }
     }
-
     @Override
     public int getItemCount() {
         return dataList.size();
